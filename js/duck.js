@@ -18,8 +18,6 @@ $(document).ready(function(){
 	//alert(hh);
 	//const h = hh.find("#logo").height();
 	//alert(h); //151.484 / 123.625
-	const h = $("#logo").css("height");
-	alert(h); //151.484 / 123.625
-	
+		
 	
 });/////////////////전체끝
