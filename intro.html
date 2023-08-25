@@ -5,18 +5,12 @@
 		<title>오리고기집 사랑채</title>
 		<script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
 		<script src="js/duck.js"></script>
-		<script>
-		$(document).ready(function(){
-		//리로드
-		setTimeout(function(){ 
-			window.location.href="intro.html";			
-		}, 1);
-		</script>
 		<link rel="stylesheet" href="css/duck.css">
 	</head>
 	<body id="intro">
 		<div id="layout">
-			<iframe src="header.html" id="header"></iframe>
+			<!--<iframe src="header.html" id="header"></iframe>-->
+			<embed type="text/html" src="header.inc" id="header">
 			<main>
 				<img src="images/intro.jpg" alt="사랑채 전경">				
 			</main>
