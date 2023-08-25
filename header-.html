@@ -1,0 +1,11 @@
+		<header>
+			<nav>
+				<a href="index.html" target="_parent"><img src="images/top_01.jpg" alt="로고" id="logo"></a>
+				<a href="intro.html" target="_parent"><img src="images/top_02.jpg" alt="사랑채 소개"></a>
+				<a href="menus.html" target="_parent"><img src="images/top_03.jpg" alt="메뉴안내"></a>
+				<a href="javascript:alert('작업중입니다.\n031-234-5678로 연락주시면 친절하게 안내하겠습니다.')"><img src="images/top_04.jpg" alt="공지사항"></a>
+				<a href="media.html" target="_parent"><img src="images/top_05.jpg" alt="매스컴소개"></a>
+				<a href="map.html" target="_parent"><img src="images/top_06.jpg" alt="오시는길"></a>
+				<a href="javascript:alert('작업중입니다.\n031-234-5678로 연락주시면 친절하게 안내하겠습니다.')"><img src="images/top_07.jpg" alt="예약문의"></a>
+			</nav>
+		</header>
