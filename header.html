@@ -5,9 +5,15 @@
 		<title>오리고기집 사랑채</title>
 		<script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
 		<script>
-			$(document).ready(function(){
-					
-			});
+			$(document).ready(function(){	
+				//창넓이가 1200픽셀 미만이면 이미지 높이 값을 부모창에 넘겨준다.
+				if( $(window).innerWidth()<1200 ){
+					const x = $("img").eq(0).height();
+					//console.log(x);		
+					$("#header", parent.document).height(x);		
+				}
+	
+			});////끝
 		</script>
 		<style>
 			* {margin:0; padding:0; box-sizing:border-box;}
