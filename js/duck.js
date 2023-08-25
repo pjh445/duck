@@ -15,8 +15,9 @@ $(document).ready(function(){
 	//상단높이 감지하기
 	//  contentWindow.document 는 온라인에 연결되어야 실행된다
 	const hh = $("#header").get(0).contentWindow.document;
-	const h = hh.find("#logo").height();
-	alert(h); //151.484 / 123.625
+	alert(hh);
+	//const h = hh.find("#logo").height();
+	//alert(h); //151.484 / 123.625
 	
 	
 	
