@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", function() {
     let z= 2;
     const fade = () => {
         images.forEach( ( i , j ) => {
-            i.style.transition = "opacity 0.5s";
+            i.style.transition = "opacity 1s";
             if(j != 0 ) i.style.opacity = 0;
         });
         if( z > 0 ) {
