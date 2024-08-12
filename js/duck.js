@@ -12,8 +12,10 @@ document.addEventListener("DOMContentLoaded", function() {
             z--;
         }
         else  {
-             images.forEach(  i => i.style.opacity = 1;
-            z = 2;
+             images.forEach(  i => {
+                i.style.opacity = 1;
+                z = 2;
+             });
         }
     }
 
