@@ -2,13 +2,16 @@ document.addEventListener("DOMContentLoaded", function() {
     
     // 초기 설정
     const images = document.querySelectorAll("#index main img");
-    let i = 3;
+    let i = 2;
     let interval = 2000;
     let fadeDuration = 1000;
     
     // 초기 설정
-    images.forEach(img => img.style.opacity = 0);
-    images[i].style.opacity = 1;
+    images.forEach(img => {
+        img.style.opacity = 0;
+        //images[i].style.opacity = 1;
+    });
+    
 
     function fade() {
         i--; // [2,1,0]
