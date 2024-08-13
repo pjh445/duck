@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", function() {
     
     // 초기 설정
     const images = document.querySelectorAll("#index main img");
-    let z= 2;
+    let z= images.length -1 ;
     const fade = () => {
         images.forEach( ( i , j ) => {
             i.style.transition = "opacity 1s";
