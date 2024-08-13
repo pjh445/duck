@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", function() {
             i.style.transition = "opacity 1s";
             if(j != 0 ) i.style.opacity = 0;
         });
-        if( z > 0 ) {
+        if( z >= 0 ) {
             images[z].style.opacity = 1;
             z--;
         }
